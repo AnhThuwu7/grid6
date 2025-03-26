@@ -1,0 +1,62 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    row-gap: 5px;
+    padding: 1px;
+    text-align: center;
+    grid-template-areas: 
+    "aa aa aa"
+    "bb bb1 bb2"
+    "cc cc cc"
+    "dd dd1 dd2"
+    "ee ee ee"  
+}
+.so1{
+    background-color: #156656;
+    row-gap: 10px;
+    column-gap: 20px;
+    align-content: center;
+    
+}
+.o1{
+    grid-area:  aa;
+    height: 60px;
+}
+.o2{
+
+    grid-area: bb;
+} 
+.o3{
+
+    grid-area: bb1;
+} 
+.o4{
+
+    grid-area: bb2;
+} 
+
+.o5{
+    grid-area: cc;
+   grid-column-start: 2;
+}
+.o6{
+    grid-area: dd;
+    height: 50px;
+}
+.o7{
+
+    grid-area: dd1;
+} 
+.o8{
+
+    grid-area: dd2;
+} 
+.o9{
+    grid-area: ee;
+    grid-column-end: 2;
+    height: 35px;
+}
